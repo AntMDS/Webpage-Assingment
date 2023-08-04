@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>This is for my webpage final asssingment for Visual Studio.</p>
+</div>
+
+<div class="collumSection">
+
+    <div class="column">
+        <section class="video">
+            <video width="320" height="240" controls class="centerVideo">
+                <source src="https://www.youtube.com/watch?v=oj7G6C20yEg">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </div>
+
+    <div class="column">
+        <button onclick="boxAnimation()">Click Here</button>
+        <section id="animation"></section>
+    </div>
+</div>

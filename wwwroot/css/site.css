@@ -1,0 +1,51 @@
+html {
+  font-size: 25px;
+  background-color: grey
+}
+
+@media (min-width: 18px) {
+    html {
+        font-size: 25px;
+        background-color: darkgray;
+        color: white;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: grey;
+    color: white;
+}
+
+body {
+    background-color: grey;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.collumSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.column {
+    width: 100%;
+    float: left;
+    padding:50px;
+    border: 2px solid white;
+}
+
+video {
+    width:100%;
+    height: auto;
+    text-align: center
+}
+
+#animation {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    background: hotpink;
+}
